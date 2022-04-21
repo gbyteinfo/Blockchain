@@ -1,13 +1,10 @@
 package br.com.hst.bcjorge.mainbc;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
-
-import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
+import br.com.hst.bcjorge.blockchainarquivos.CriaArquivoBlocosJSON;
 import br.com.hst.bcjorge.chblock.ChBlock;
 
 
@@ -23,24 +20,7 @@ public class Main {
 		blockchain.add(new ChBlock("Bloco 7", blockchain.get(blockchain.size() -1).hash));
 		
 		String blockchainJSON = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
+		CriaArquivoBlocosJSON.criaArquivoBlocosJSON(blockchain);
 		System.out.println(blockchainJSON);
-		
-		criaArquivoBlocosJSON(blockchain);
-	}
-	
-	public static void criaArquivoBlocosJSON(List<ChBlock> blockchain)
-	{
-		String path = "C:\\Users\\jorge_mira\\eclipse-blockchain\\Blockchain\\src\\br\\com\\hst\\bcjorge\\blockchainarquivos\\blockchain.txt";		
-		String json = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
-		try 
-		{
-			FileWriter writer = new FileWriter(path);
-			writer.write(json);
-			writer.close();
-			
-		} catch (IOException e) 
-		{
-			e.printStackTrace();
-		}
 	}
 }

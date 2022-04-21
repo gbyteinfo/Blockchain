@@ -1,0 +1,25 @@
+BLOCKCHAIN UTILIZANDO JAVA
+
+1) O intuito para o desenvolvimento em java de uma blockchain,
+	tem como premissa o estudo da tecnologia em si e as 
+	possibilidades de uso para ajuda ao reflorestamento mundial
+
+2) De inicio sera feito um piloto de uma blockchain simples com 
+	algumas caracteristicas:
+	
+	- Blockchain Basico;
+	- Proof to Work;
+	- Peer2Peer;
+	- Orientação a Objetos;
+	- JDK java 11;
+	- Gson;
+	
+3) Abra Windows > preferências no menu Eclipse e navegue até a guia Java > Build path > User Libraries . 
+	Clique em novo e digite um novo nome de Biblioteca de Usuário : como “ gson_lib ” e clique em ok. Com “ gson_lib ” selecionado, 
+	pressione Adicionar JARs Externos e encontre o gson-2.6.2.jar que você baixou. Aplicar e Fechar.
+	
+	Adicionando a Biblioteca do Usuário a um pacote.
+	Clique com o botão direito do mouse em seu pacote no gerenciador de pacotes > Caminho de compilação > Adicionar bibliotecas. 
+	Selecione Bibliotecas do usuário e pressione próximo, agora apenas marque “gson_lib” e clique em finalizar.
+	Importe-o comimport com.google.gson.*;
+	

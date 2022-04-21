@@ -9,26 +9,26 @@ public class StringUtil {
 	
 	public static String aplicarSha256(String data) 
 	{
+		
 		try 
-		{
-			
-			MessageDigest funcaoInstance;
-			funcaoInstance = MessageDigest.getInstance("SHA-256");
-			
+		{	
+			MessageDigest functionInstance;
+			functionInstance = MessageDigest.getInstance("SHA-256");
+
 			//APLICA ALGORIFIMO E CAPTURA OS BYTES DOS DADOS
-			byte[] hash = funcaoInstance.digest(data.getBytes("UTF-8"));
+			byte[] hash = functionInstance.digest(data.getBytes("UTF-8"));
 			StringBuffer hexString = new StringBuffer();	
 			
 			//CONVERTENDO BYTE A BYTE PARA HEX
 			for (int i = 0; i < hash.length; i++) {
 				
-				String hex = Integer.toHexString(0xff & hash[i]);
-				if(hex.length() == 1)
+				String toHex = Integer.toHexString(0xff & hash[i]);
+				if(toHex.length() == 1)
 				{
 					hexString.append('0');
 				}
 				//CONCATENA HEX A HEX
-				hexString.append(hex);
+				hexString.append(toHex);
 			
 			}
 			//RETORNA A HASH COMPLETA

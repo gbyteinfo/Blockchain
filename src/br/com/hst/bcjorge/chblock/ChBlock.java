@@ -8,19 +8,19 @@ public class ChBlock {
 
 	// 1� CLASSE RESPONSAVEL POR REPRESENTAR O BLOCO
 	
+	
+	private Object data;      // DADOS DA TRANSA플O
+	private String timeStamp; // TIMESTAMP DA TRANSA플O
 	public String hash;       // ASSINATURA DO BLOCO 
 	public String prevHash;   // ASSINATURA BLOCO ANTERIOR
-	private String data;      // DADOS DA TRANSA플O
-	private String timeStamp; // TIMESTAMP DA TRANSA플O
 	
 	
-	public ChBlock(String data, String prevHash) 
+	public ChBlock(Object data, String prevHash) 
 	{
-		this.hash      = calculaHash();
+		this.timeStamp = new Date().toString();
 		this.prevHash  = prevHash;
 		this.data      = data;
-		this.timeStamp = new Date().toString();
-		//this.data    = new Date().getTime();
+		this.hash      = calculaHash();
 	}
 	
 	public String calculaHash()

@@ -11,7 +11,6 @@ import br.com.hst.bcjorge.chblock.ChBlock;
 public class Main {	
 	public static void main(String[] args) {
 		
-		
 		List<ChBlock> blockchain = new LinkedList<ChBlock>();
 		blockchain.add(new ChBlock("Bloco 1", "0"));
 		blockchain.add(new ChBlock("usuario:Jorge Mira | coins:5000", blockchain.get(blockchain.size() -1).hash));

@@ -1,44 +1,20 @@
 [
   {
     "data": "Bloco 1",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "4e1bc1837d6415b70f99f71a7d7eba175bfc810faeeb27da7971055c0472d66a",
+    "timeStamp": "Wed May 25 12:11:57 BRT 2022",
+    "hash": "5cd038deff7b031f75c23c4cfc295adc69cf3bd2d22e3df4fcfae0f17a665c5b",
     "prevHash": "0"
   },
   {
     "data": "usuario:Jorge Mira | coins:5000",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "237dd6721013e57c4c05688ebf894d96fa081b6ff59b317c071193126d0d4a50",
-    "prevHash": "4e1bc1837d6415b70f99f71a7d7eba175bfc810faeeb27da7971055c0472d66a"
+    "timeStamp": "Wed May 25 12:11:57 BRT 2022",
+    "hash": "cea0525909ce506d82db5ccd82714bf02392fdcff9f47a31ade882244f994c34",
+    "prevHash": "5cd038deff7b031f75c23c4cfc295adc69cf3bd2d22e3df4fcfae0f17a665c5b"
   },
   {
     "data": "usuario:Beatriz | coins:5000",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "f1fbd54e9d63f183ff8ad08f2c2e41a3e069593afa87877374b7ec58b3faf055",
-    "prevHash": "237dd6721013e57c4c05688ebf894d96fa081b6ff59b317c071193126d0d4a50"
-  },
-  {
-    "data": "usuario:Jorge Mira | coins:4500",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "3109aa85bf882edf0c9889a795062dc6d58b5e93de7a4dec361649e10e452510",
-    "prevHash": "f1fbd54e9d63f183ff8ad08f2c2e41a3e069593afa87877374b7ec58b3faf055"
-  },
-  {
-    "data": "usuario:Beatriz | coins:6000",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "498b78de3e17baa9cfa02583d9e52e8f8f25efe9eb0b4fa1c9eaaa9cdb622678",
-    "prevHash": "3109aa85bf882edf0c9889a795062dc6d58b5e93de7a4dec361649e10e452510"
-  },
-  {
-    "data": "usuario:Beatriz | coins:2000",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "cee19de0cafe3f28604426a85cbc95ae17cbff54ae40eba9e79897aa41bacf98",
-    "prevHash": "498b78de3e17baa9cfa02583d9e52e8f8f25efe9eb0b4fa1c9eaaa9cdb622678"
-  },
-  {
-    "data": "usuario:Jorge Mira | coins:8500",
-    "timeStamp": "Tue May 10 08:15:06 BRT 2022",
-    "hash": "78749b44c924b5dfb1a0217ffd7def2f5fe9bacde0a02fe3c7aaecf3f8533a3e",
-    "prevHash": "cee19de0cafe3f28604426a85cbc95ae17cbff54ae40eba9e79897aa41bacf98"
+    "timeStamp": "Wed May 25 12:11:57 BRT 2022",
+    "hash": "053f6f844377e874f210eae3930af1a02821ea7c3fd12c07586f76162cbfe448",
+    "prevHash": "cea0525909ce506d82db5ccd82714bf02392fdcff9f47a31ade882244f994c34"
   }
 ]

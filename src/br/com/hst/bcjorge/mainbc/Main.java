@@ -15,10 +15,6 @@ public class Main {
 		blockchain.add(new ChBlock("Bloco 1", "0"));
 		blockchain.add(new ChBlock("usuario:Jorge Mira | coins:5000", blockchain.get(blockchain.size() -1).hash));
 		blockchain.add(new ChBlock("usuario:Beatriz | coins:5000", blockchain.get(blockchain.size() -1).hash));
-		blockchain.add(new ChBlock("usuario:Jorge Mira | coins:4500", blockchain.get(blockchain.size() -1).hash));
-		blockchain.add(new ChBlock("usuario:Beatriz | coins:6000", blockchain.get(blockchain.size() -1).hash));
-		blockchain.add(new ChBlock("usuario:Beatriz | coins:2000", blockchain.get(blockchain.size() -1).hash));
-		blockchain.add(new ChBlock("usuario:Jorge Mira | coins:8500", blockchain.get(blockchain.size() -1).hash));
 		
 		
 		String blockchainJSON = new GsonBuilder().setPrettyPrinting().create().toJson(blockchain);
